@@ -70,3 +70,72 @@ h1{
     margin-bottom: 2rem;
 }
 
+@media screen and (max-width: 1400px){
+    input{
+        padding: 5px;
+        background-color: white;
+        margin-right: 10px;
+        border: 1px solid blueviolet;
+        border-bottom-right-radius: 15px;
+        border-top-left-radius: 15px;
+        text-align: center;
+        font-size: 1rem;
+    
+    }
+    
+    
+    #congrat{
+        color: yellow;
+        margin-bottom: 1rem;
+        font-size: 0.9rem;
+    }
+
+    .top img{
+        width: 20%;
+        height: 10rem;
+    }
+
+    .image img{
+        width: 10%;
+    }
+}
+
+
+@media screen and (max-width: 500px){
+
+
+    input{
+        padding: 1px;
+        margin-right: 2px;
+        border-bottom-right-radius: 7px;
+        border-top-left-radius: 7px;
+        width: 10rem;
+        font-size: 1rem;
+    
+    }
+
+    button{
+        display: block;
+        margin: 10px auto;
+    }
+
+    h1{
+        font-size: 1.2rem;
+    }
+    
+    
+    #congrat{
+        color: yellow;
+        margin-bottom: 1rem;
+        font-size: 1.2rem;
+    }
+
+    .top img{
+        width: 20%;
+        height: 10rem;
+    }
+
+    .image img{
+        width: 10%;
+    }
+}
